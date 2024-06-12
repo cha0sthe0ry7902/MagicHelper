@@ -1,0 +1,62 @@
+﻿<Application x:Class="MagicHelper.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MagicHelper"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="Background" Value="#FF1F1F1F"/>
+            <Setter Property="BorderBrush" Value="#FFD0D0D0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FF1F1F1F"/>
+            <Setter Property="Foreground" Value="#FFD0D0D0"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FF373737"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#FF1F1F1F"/>
+            <Setter Property="Foreground" Value="#FFD0D0D0"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Background" Value="#FF1F1F1F"/>
+            <Setter Property="Foreground" Value="#FFD0D0D0"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#FFD0D0D0"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+        </Style>
+        <Style TargetType="DatePickerTextBox">
+            <Setter Property="Background" Value="#FF1F1F1F"/>
+            <Setter Property="Foreground" Value="#FFD0D0D0"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Application.Resources>
+</Application>
